@@ -6,5 +6,6 @@ stdenv.mkDerivation {
   buildInputs = with pkgs;  [
     php
     php.packages.composer
+    beanstalkd
   ];
 }
